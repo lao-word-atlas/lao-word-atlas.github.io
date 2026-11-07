@@ -1,5 +1,5 @@
 'use strict';
-const CACHE = 'lao-atlas-999e7669df2f';
+const CACHE = 'lao-atlas-a43b2237b013';
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(['./', './index.html'])).then(() => self.skipWaiting()));
 });
